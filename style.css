@@ -66,6 +66,8 @@ li {
     background-color: #3882F6;
     border: none;
     border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 40px;
     padding-right: 40px;
 }
@@ -101,13 +103,14 @@ li {
 }
 
 .card-image {
-    border: black;
+    border: #1F2937;
+    border-radius: 5px;
     border-width: 5px;
     border-style: solid;
 
 }
 
-.card p {
+.card p {  
     text-align: center;
 }
 
@@ -119,12 +122,11 @@ li {
     align-items: center;
     background-color: #E5E7EB;
     padding: 10px;
-    height: 444px;
+    height: 400px;
 }
 
 .quote-1,
 .quote-2 {
-
     font-style: italic;
     color: #1F2937;
 }
@@ -141,6 +143,72 @@ li {
     font-weight: bold;
     margin-left: 600px;
     margin-top: 0px;
-
 }
 
+.section-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bluebox { 
+    display: flex;
+    flex-direction: row;
+    background-color: #3882F6;
+    width: 1100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.bluebox-left {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.bluebox-firstline,
+.bluebox-secondline {
+    color: #F9FAF8;
+}
+
+.bluebox-firstline {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.bluebox-secondline {
+    font-size: 16px;
+    margin-top: 5px;
+}
+.bluebox-right { 
+    height: 40px;
+    margin-top: 25px;
+    margin-left: 250px;
+}
+
+.button {  
+    font-size: 18px;
+    font-weight: bold;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5px;
+    border-style: solid white;
+    border-width: 2px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #E5E7EB;
+    background-color: #1F2937;
+    height: 80px;
+}
